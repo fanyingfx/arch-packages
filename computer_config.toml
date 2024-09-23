@@ -4,12 +4,11 @@ reader=["okular"]
 im=["linuxqq","telegram-desktop"]
 ime=["fcitx5","fcitx5-rime","fcitx5-qt","fcitx5-gtk","fcitx5-configtool"]
 vsc=["jujutsu","git"]
+utils=["yazi"]
+[applications.archlinuxcn]
 
 [dev-tools.nvim]
 lsp=["node"]
-
-
-
 
 
 [applications.aur]
@@ -18,9 +17,8 @@ dev-tools=["visual-studio-code-bin"]
 os-dev=["i386-elf-gcc"]
 
 
-
 [languages]
 racket.packages=["sicp","eopl","racket-langserver"]
 
-[create]
+[create_dir]
 yt-dlp=["~/Videos/ytb/"]
