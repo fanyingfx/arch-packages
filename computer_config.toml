@@ -1,6 +1,7 @@
 [applications.official]
 browser=["brave"]
 reader=["okular"]
+editor=["neovim"]
 im=["linuxqq","telegram-desktop"]
 ime=["fcitx5","fcitx5-rime","fcitx5-qt","fcitx5-gtk","fcitx5-configtool"]
 version-control=["jujutsu","git"]
@@ -14,8 +15,9 @@ lsp=["node"]
 
 [applications.aur]
 ime=["fcitx5-themes-candlelight"]
-dev-tools=["visual-studio-code-bin"]
+editor=["visual-studio-code-bin"]
 os-dev=["i386-elf-gcc"]
+pager=["nvimpager"]
 
 
 [languages]
