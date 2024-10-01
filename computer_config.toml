@@ -2,6 +2,7 @@
 browser=["brave"]
 reader=["okular"]
 editor=["neovim"]
+common=["wl-clipboard"]
 im=["linuxqq","telegram-desktop"]
 ime=["fcitx5","fcitx5-rime","fcitx5-qt","fcitx5-gtk","fcitx5-configtool"]
 version-control=["jujutsu","git"]
