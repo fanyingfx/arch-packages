@@ -6,7 +6,7 @@ common=["wl-clipboard"]
 im=["linuxqq","telegram-desktop"]
 ime=["fcitx5","fcitx5-rime","fcitx5-qt","fcitx5-gtk","fcitx5-configtool"]
 version-control=["jujutsu","git"]
-utils=["yazi"]
+utils=["yazi","plocate"]
 reversing=["radare2"]
 [applications.archlinuxcn]
 
@@ -19,6 +19,7 @@ ime=["fcitx5-themes-candlelight"]
 editor=["visual-studio-code-bin"]
 os-dev=["i386-elf-gcc"]
 pager=["nvimpager"]
+cli-dict=["kd"]
 
 
 [languages]
@@ -26,3 +27,5 @@ racket.packages=["sicp","eopl","racket-langserver"]
 
 [create_dir]
 yt-dlp=["~/Videos/ytb/"]
+[systemd-unit]
+plocate=["plocate-updatedb.timer"]
