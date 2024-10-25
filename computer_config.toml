@@ -1,6 +1,6 @@
 [applications.official]
 browser=["brave"]
-reader=["okular"]
+reader=["okular","zotero-bin"]
 editor=["neovim"]
 common=["wl-clipboard"]
 im=["linuxqq","telegram-desktop"]
