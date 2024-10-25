@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import toml
+import tomllib
 import sys
 import pprint
 CONFIG_FILENAME="./computer_config.toml"
@@ -26,7 +26,8 @@ def get_package_list(appconfig:dict):
     return {'pacman':pacman_list,'aur':aur_list}
 
 if __name__=="__main__":
-    config=toml.load(CONFIG_FILENAME)
+    with open(CONFIG_FILENAME,"rb") as f:
+        config=tomllib.load(f)
     if len(sys.argv)==1:
         pprint.pp(config)
     for arg in rest(sys.argv):
