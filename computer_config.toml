@@ -8,7 +8,9 @@ ime=["fcitx5","fcitx5-rime","fcitx5-qt","fcitx5-gtk","fcitx5-configtool"]
 version-control=["jujutsu","git"]
 utils=["yazi","plocate"]
 reversing=["radare2"]
+
 [applications.archlinuxcn]
+doc-viewers=["zotero-bin"]
 
 [dev-tools.nvim]
 lsp=["node"]
